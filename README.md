@@ -16,7 +16,7 @@ An end-to-end automation built in **n8n**. A news link added to a Google Sheet b
 6. **Caption:** a third agent writes an Instagram caption in a fixed brand voice.
 7. **Human review:** Gmail sends the caption, image link and source with **Approve** and **Decline** buttons, and the workflow waits.
 8. **Decision:** on **Approve**, the post is logged to a Google Sheet and published to Instagram through Upload-Post. On **Decline**, the caption agent writes a new caption and sends it for review again.
-9. ![Workflow screenshot](workflow-screenshot.png)
+![Workflow screenshot](workflow-screenshot.png.png)
 
 ## Workflow diagram
 
