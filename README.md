@@ -20,7 +20,7 @@ An end-to-end automation built in **n8n**. A news link added to a Google Sheet b
 ## Workflow diagram
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Google Sheets Trigger] --> B[Limit]
     B --> C[Edit Fields]
     C --> D[Tavily search]
